@@ -1,0 +1,19 @@
+.App {
+  margin: 4rem;
+}
+
+.form, .detail {
+  width: 100%;
+  max-width: 50%;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+}
+
+a {
+  width: 71px;
+  max-width: 71px;
+  text-align: center;
+}
+
+
