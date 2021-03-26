@@ -29,7 +29,7 @@ function App() {
       const resp = await deletePost(id);
       console.log(resp)
       setPosts(posts.filter(post => post.id !== id));
-      alert('Elemento eliminado')
+      alert('post deleted')
     } catch (error) {
       setStatus("rejected");
     }
@@ -42,7 +42,7 @@ function App() {
       const newPosts = [...posts];
       newPosts[index] = resp.data;
       setPosts(newPosts);
-      alert('Elemento editado')
+      alert('post edited')
     } catch (error) {
       setStatus("rejected");
     }
